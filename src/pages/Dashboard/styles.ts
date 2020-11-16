@@ -80,17 +80,24 @@ export const Repositories = styled.div`
       margin-left: 16px;
       display: flex;
       flex-direction: column;
-      width: 650px;
+      width: 550px;
 
       strong {
         font-size: 20px;
+        word-wrap: break-word;
         color: #3d3d4d;
+        max-height: 46px;
+        overflow: hidden;
       }
 
       p {
         font-size: 18px;
         color: #a8a8b3;
         margin-top: 4px;
+        word-wrap: break-word;
+        max-height: 85px;
+        overflow: hidden;
+        overflow: hidden;
       }
     }
 

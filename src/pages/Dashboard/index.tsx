@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FiChevronRight } from 'react-icons/fi';
 
 import logoImg from '../../assets/logo.svg';
-import api from '../../services/api';
+// import api from '../../services/api';
 
 import { Title, Form, Repositories } from './styles';
 
 const Dashboard: React.FC = () => {
+  // const [repositories, setRepositories] = useState();
+
+  // useEffect(() => {
+  //   // api.get('');
+  // }, []);
+
   return (
     <>
       <img src={logoImg} alt="Github Explorer" />
@@ -25,7 +31,7 @@ const Dashboard: React.FC = () => {
           />
           <div>
             <strong>Rodrigo</strong>
-            <p>adescriçãodescriçãodescriçãodescriçãodescriçãodescrição</p>
+            <p>Descrição</p>
           </div>
 
           <FiChevronRight size={20} />
