@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-export default axios.create({ baseURL: 'https://api.github.com/' });
+export default axios.create({ baseURL: 'https://api.github.com' });
