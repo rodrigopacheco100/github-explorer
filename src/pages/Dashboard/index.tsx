@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/logo.svg';
 import api from '../../services/api';
-// import api from '../../services/api';
 
 import { Title, Form, Repositories, Error } from './styles';
 
